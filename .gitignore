@@ -1,0 +1,43 @@
+# --- Comentarios: Todo lo que sigue a '#' es un comentario ---
+
+# 1. Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 2. Configuraciones de IDEs y Editores (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 3. Dependencias (carpetas grandes)
+node_modules/
+bower_components/
+/vendor/
+
+# 4. Archivos de compilación y resultados
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.o
+
+# 5. Archivos de logs y bases de datos
+*.log
+*.sqlite
+*.db
+
+# 6. Variables de entorno (¡Seguridad!)
+.env
+.env.local
+.env.production
+secret.txt
+
+# 7. Cobertura de tests
+coverage/
+.nyc_output/
