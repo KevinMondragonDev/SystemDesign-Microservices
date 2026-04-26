@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-server
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+#Que trabaje en solitario , es la unica fuente de la verdad que no hay nadie mas
+#Esta acostumbrado a trabajar en cluster con varios leventados
